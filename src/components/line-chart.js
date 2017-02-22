@@ -5,39 +5,6 @@ import { LineChart, Line, Tooltip, XAxis, YAxis, Legend, CartesianGrid } from 'r
 // This is a functional component rather than a class component
 const LineChartComponent = () => {
 
-  const data =
-    [
-      {
-        day: 1,
-        orders: 12
-      },
-      {
-        day: 2,
-        orders: 8
-      },
-      {
-        day: 3,
-        orders: 32
-      },
-      {
-        day: 4,
-        orders: 9
-      },
-      {
-        day: 5,
-        orders: 17
-      },
-      {
-        day: 6,
-        orders: 12
-      },
-      {
-        day: 7,
-        orders: 4
-      }
-    ];
-
-
   return (
     <div style={lineChartStyle}>
       <h4>Line Chart</h4>
@@ -57,5 +24,37 @@ const lineChartStyle = {
   float: 'right',
   textAlign: 'center',
 };
+
+const data =
+  [
+    {
+      day: 1,
+      orders: 12
+    },
+    {
+      day: 2,
+      orders: 8
+    },
+    {
+      day: 3,
+      orders: 32
+    },
+    {
+      day: 4,
+      orders: 9
+    },
+    {
+      day: 5,
+      orders: 17
+    },
+    {
+      day: 6,
+      orders: 12
+    },
+    {
+      day: 7,
+      orders: 4
+    }
+  ];
 
 export default LineChartComponent;

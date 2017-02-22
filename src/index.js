@@ -6,6 +6,8 @@ import ReactDOM from 'react-dom';
 
 import BarChartComponent from './components/bar-chart';
 import LineChartComponent from './components/line-chart';
+import PieChartComponent from './components/pie-chart';
+import ComposedChartComponent from './components/composed-chart';
 
 // This function creates the App level component, which is a class component
 class App extends Component {
@@ -22,6 +24,8 @@ class App extends Component {
       <div>
         <BarChartComponent />
         <LineChartComponent />
+        <PieChartComponent />
+        <ComposedChartComponent />
       </div>
     );
   }
