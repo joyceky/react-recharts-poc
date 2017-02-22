@@ -1,2 +1,1 @@
-# react-recharts-poc
-Proof of concept test - React js with Recharts bar, line, and pie graphs
+React starter with React, Redux, Babel and Webpack
