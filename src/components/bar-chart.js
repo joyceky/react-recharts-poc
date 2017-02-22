@@ -54,7 +54,7 @@ const BarChartComponent = () => {
 };
 
 const barChartStyle = {
-  width: '50%',
+  width: '40%',
   float: 'left',
   textAlign: 'center'
 };

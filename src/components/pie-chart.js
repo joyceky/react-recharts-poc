@@ -50,7 +50,7 @@ const PieChartComponent = React.createClass({
 })
 
 const pieChartStyle = {
-  width: '50%',
+  width: '40%',
   float: 'left',
   textAlign: 'center',
 };
